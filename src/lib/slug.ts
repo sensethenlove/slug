@@ -3,7 +3,7 @@ export default (value: string): string => {
 
   if (value) {
     response = value.toLowerCase()
-      .replace(/[\,\.\:\?\!\½\)\(\@\#\$\%\^\&\*\;\'\"\{\}\[\]\\\|\/\`\~\<\>\_\=\+]/g, '')
+      .replace(/[\,\.\:\?\!\½\)\(\@\#\$\%\^\&\*\;\'\"\{\}\[\]\\\|\/\`\~\<\>\_\=\+\&\¢\£\¥\€\©\®\™\·]/g, '')
       .trim()
       .replace(/\s/g, '-')
   }

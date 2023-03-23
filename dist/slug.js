@@ -1,6 +1,10 @@
 export default (value) => {
-    return value?.trim()
-        .toLowerCase()
-        .replace(/\s/g, '-')
-        .replace(/[\,\.\:\?\!\½\)\(]/g, '');
+    let response = '';
+    if (value) {
+        response = value.toLowerCase()
+            .replace(/[\,\.\:\?\!\½\)\(\@\#\$\%\^\&\*\;\'\"\{\}\[\]\\\|\/\`\~\<\>\_\=\+\&\¢\£\¥\€\©\®\™\·]/g, '')
+            .trim()
+            .replace(/\s/g, '-');
+    }
+    return response;
 };

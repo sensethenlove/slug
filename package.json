@@ -1,6 +1,6 @@
 {
   "name": "@sensethenlove/slug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sense Then Love",
   "license": "MIT",
   "type": "module",
@@ -44,6 +44,7 @@
     "@sveltejs/kit": "^1.5.0",
     "@sveltejs/package": "^2.0.0",
     "publint": "^0.1.9",
+    "sass": "^1.59.3",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.1",
     "tslib": "^2.4.1",

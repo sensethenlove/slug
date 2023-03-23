@@ -1,2 +1,3 @@
 import slug from './slug';
-export { slug };
+import Slug from './Slug.svelte';
+export { slug, Slug };
